@@ -1,3 +1,3 @@
-export default function helloWorld(){
-    return <h1>Hello World with NextJS</h1>
+export default function tresaure(){
+    return <h1>Tresaure</h1>
 }
