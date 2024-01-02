@@ -1,3 +1,9 @@
+"use client"
+import Users from "@/components/Users"
+
 export default function tresaure(){
-    return <h1>Tresaure</h1>
+    return <section>
+        <h1>Tresaure</h1>
+        <Users></Users>
+    </section>
 }
