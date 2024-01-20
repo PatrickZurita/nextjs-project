@@ -3,6 +3,9 @@ import PostCard from "@/components/PostCard";
 async function loadPost() {
     const response = await fetch('https://jsonplaceholder.typicode.com/posts');
     const data = await response.json();
+
+    await new Promise((resolve) => setTimeout(resolve, 3000));
+
     return data;
 }
 
@@ -18,4 +21,4 @@ async function PostPages() {
     );
 }
 
-export default PostPages
+export default PostPages;
